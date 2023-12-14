@@ -1,4 +1,0 @@
-/home/ilya/CLionProjects/untitled1/build/CMakeFiles/untitled.dir
-/home/ilya/CLionProjects/untitled1/build/CMakeFiles/edit_cache.dir
-/home/ilya/CLionProjects/untitled1/build/CMakeFiles/rebuild_cache.dir
-/home/ilya/CLionProjects/untitled1/build/CMakeFiles/untitled_autogen.dir
