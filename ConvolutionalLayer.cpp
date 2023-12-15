@@ -37,3 +37,4 @@ vector<vector<float>> ConvolutionalLayer::apply(const vector<vector<float>>& inp
 
     return output;
 }
+

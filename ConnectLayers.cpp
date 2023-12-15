@@ -25,3 +25,4 @@ vector<float> ConnectLayers::apply(const vector<float>& input) {
     }
     return output;
 }
+
