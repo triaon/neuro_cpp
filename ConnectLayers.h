@@ -7,7 +7,7 @@ class ConnectLayers {
 public:
     ConnectLayers(int inputSize, int outputSize);
     vector<float> apply(const vector<float>& input);
-
+    void updateWeights(const vector<float>& input, const vector<float>& gradients, float learningRate);
 private:
     vector<vector<float>> weights;
     vector<float> biases;

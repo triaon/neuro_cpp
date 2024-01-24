@@ -11,6 +11,8 @@ add_executable(mainneuro
         ConvolutionalLayer.cpp
         poolLayer.cpp
         ConnectLayers.cpp
+        MNIST_data.h
+        MNIST_data.cpp
 )
 
 target_link_libraries(mainneuro Qt5::Widgets)

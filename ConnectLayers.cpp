@@ -26,3 +26,12 @@ vector<float> ConnectLayers::apply(const vector<float>& input) {
     return output;
 }
 
+void ConnectLayers::updateWeights(const std::vector<float>& input, const std::vector<float>& gradients, float learningRate) {
+    for (int i = 0; i < outputSize; ++i) {
+        for (int j = 0; j < inputSize; ++j) {
+            weights[i][j] -= learningRate * gradients[i] * input[j];
+        }
+        biases[i] -= learningRate * gradients[i];
+    }
+}
+

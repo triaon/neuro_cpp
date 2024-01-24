@@ -4,7 +4,7 @@
 #include <vector>
 using std::vector;
 class PoolLayer {
-    public:
+public:
     PoolLayer(int psize, int stride);
     vector<vector<float>> forward(const vector<vector<float>> &inp);
 private:

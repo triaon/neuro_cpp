@@ -15,4 +15,4 @@ private:
     vector<vector<vector<float>>> filters; // 3D vector for filters
 };
 
-#endif // CONVOLUTIONALLAYER_H
+#endif
